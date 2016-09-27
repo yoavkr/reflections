@@ -1,0 +1,10 @@
+Lesson 2 reflection:
+
+Q:What happens when you initialize a repository? Why do you need to do it?
+
+A: When you initialize a git it creates all of the meta-data files needed by git in order to track changes between commits.
+~~~~
+Q:How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A:It is used as a mediator between the working directory and the repository. So can leave files out of a certain commit.
+~~~~

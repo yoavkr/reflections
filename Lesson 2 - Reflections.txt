@@ -8,3 +8,14 @@ Q:How is the staging area different from the working directory and the repositor
 
 A:It is used as a mediator between the working directory and the repository. So can leave files out of a certain commit.
 ~~~~
+Q:How can you use the staging area to make sure you have one commit per logical change?
+
+A:If you changed multiple files before you made a commit, you can add and commit file by file to represent every logical change to a file.
+~~~~
+Q:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A:It gives you a named representation to a commit, which will be easier to reference to.
+~~~~
+Q:How do the diagrams help you visualize the branch structure?
+
+A:Helps you see the different branches available and the links between them and their parents.

@@ -19,3 +19,11 @@ A:It gives you a named representation to a commit, which will be easier to refer
 Q:How do the diagrams help you visualize the branch structure?
 
 A:Helps you see the different branches available and the links between them and their parents.
+~~~~
+Q:What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A:Merging 2 branches together enables us to apply changes from 2 diferrent branches. We represent it in the diagram the way we do because all commits will now be part of the same branch after the merge.
+~~~~
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A:When using automatic merging you don't always know what you're meging, which means that manually you'll be aware to what goes where in the code.

@@ -2,3 +2,12 @@ Q:When would you want to create a remote repository rather than keeping all your
 
 A:If you want more than one person maintaining the code/project.
 ~~~~
+Q:Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A:You may have added some commits that you don't want to be public yet, so it gives you control over it.
+~~~~
+Q:Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A:Forking is copying an entire repository to a different location while linking to the original one. Branch simply creates another head in the same repository.
+  If I want to work on someone else's project and make my own version of it I would use forking.
+  If I want to create another version of the same project I'm working on I'd just create another branch.
